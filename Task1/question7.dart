@@ -6,7 +6,7 @@ import 'dart:core';
 void main() 
 {
   print("Program to check whether a number is Armstrong or not: ");
-  printf("_____________________________________________________");
+  print("_____________________________________________________");
   print("Enter a number to check whether it's Armstrong or not: ");
   int n = int.parse(stdin.readLineSync()!);
   int sum=0, num;
